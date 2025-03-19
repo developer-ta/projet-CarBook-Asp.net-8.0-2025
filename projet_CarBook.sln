@@ -6,6 +6,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBook.Domain", "Core\CarBook.Domain\CarBook.Domain.csproj", "{927CEE8D-8A28-49BF-8D73-A185098FAC68}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastracture", "Infrastracture", "{F5BFE3A2-08F9-4FE4-97F9-6538E925D3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projet_CarBook.Persistence", "Infrastructure\projet_CarBook.Persistence\projet_CarBook.Persistence.csproj", "{44459F21-D828-47D1-9BB9-95657AC37F56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,12 +20,17 @@ Global
 		{927CEE8D-8A28-49BF-8D73-A185098FAC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{927CEE8D-8A28-49BF-8D73-A185098FAC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{927CEE8D-8A28-49BF-8D73-A185098FAC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44459F21-D828-47D1-9BB9-95657AC37F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44459F21-D828-47D1-9BB9-95657AC37F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44459F21-D828-47D1-9BB9-95657AC37F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44459F21-D828-47D1-9BB9-95657AC37F56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{927CEE8D-8A28-49BF-8D73-A185098FAC68} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{44459F21-D828-47D1-9BB9-95657AC37F56} = {F5BFE3A2-08F9-4FE4-97F9-6538E925D3C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AE03DCA9-455A-430D-9959-27A3479D6B1A}
